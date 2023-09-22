@@ -1,0 +1,9 @@
+* {box-sizing: border-box;}
+
+.card-title, .card-text, h2, button, .form-label{
+    text-transform: capitalize;
+}
+
+.nav-link {
+    color: red;
+}
