@@ -12,7 +12,7 @@
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg top-nav" id="topNav">
                 <h1 class="heading">
-                    <a href="#" class="navbar-brand">Store</a>
+                    <a href="#" class="navbar-brand">Rock Renaissance Records</a>
                 </h1>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -44,8 +44,31 @@
     </header>
     <main class="main" id="main">
         <section class="section" id="bannerSection">
-            <div class="container">
-                <img src="https://via.placeholder.com/650x450" alt="placeholder img" class="img-fluid image banner-img w-100 d-block mx-auto"/> 
+            <div id="rockCarousel" class="carousel slide">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#rockCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#rockCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#rockCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/ClassicRock_1000x1000.jpeg" height="500" width="100" alt="placeholder img" class="d-block w-100"/>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/bands.jpeg" height="500" width="100" alt="placeholder img" class="d-block w-100"/>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/attachment-100Artists.jpeg" height="500" width="100" alt="placeholder img" class="d-block w-100"/>
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#rockCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#rockCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </section>
         <section class="section" id="section1">
@@ -54,58 +77,58 @@
                 <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
                     <div class="col">
                         <div class="card">
-                            <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid image card-img card-img-top" />
+                            <img src="images/BostonBoston.jpeg" alt="Boston">
                             <div class="card-body">
-                                <h3 class="card-title">title</h3>
-                                <p class="card-text display-3">artist</p>
-                                <div class="card-text">year</div>
+                                <h3 class="card-title">boston</h3>
+                                <p class="card-text display-3">boston</p>
+                                <div class="card-text">1976</div>
                             </div>
                             <footer class="card-footer">
-                                <p class="card-text">prices</p>
+                                <p class="card-text">$24.99</p>
                                 <button class="btn btn-danger cart-btn">add to cart</button>
                             </footer>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card">
-                            <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid image card-img card-img-top" />
+                            <img src="images/Acdc_Highway_to_Hell.jpeg" alt="Highway to Hell">
                             <div class="card-body">
-                                <h3 class="card-title">title</h3>
-                                <p class="card-text display-3">artist</p>
-                                <div class="card-text">year</div>
+                                <h3 class="card-title">highway to hell</h3>
+                                <p class="card-text display-3">AC/DC</p>
+                                <div class="card-text">1979</div>
                             </div>
                             <footer class="card-footer">
-                                <p class="card-text">prices</p>
+                                <p class="card-text">$24.99</p>
                                 <button class="btn btn-danger cart-btn">add to cart</button>
                             </footer>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card">
-                            <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid image card-img card-img-top" />
+                            <img src="images/The_Dark_Side_of_the_Moon_Cover.svg.png" alt="The Dark Side of the Moon">
                             <div class="card-body">
-                                <h3 class="card-title">title</h3>
-                                <p class="card-text display-3">artist</p>
-                                <div class="card-text">year</div>
+                                <h3 class="card-title">the dark side of the moon</h3>
+                                <p class="card-text display-3">pink floyd</p>
+                                <div class="card-text">1973</div>
                             </div>
                             <footer class="card-footer">
-                                <p class="card-text">prices</p>
+                                <p class="card-text">$24.99</p>
                                 <button class="btn btn-danger cart-btn">add to cart</button>
                             </footer>
                         </div>
-                        <div class="col d-md-none d-lg-block">
-                            <div class="card">
-                                <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid image card-img card-img-top" />
-                                <div class="card-body">
-                                    <h3 class="card-title">title</h3>
-                                    <p class="card-text display-3">artist</p>
-                                    <div class="card-text">year</div>
-                                </div>
-                                <footer class="card-footer">
-                                    <p class="card-text">prices</p>
-                                    <button class="btn btn-danger cart-btn">add to cart</button>
-                                </footer>
+                    </div>
+                    <div class="col d-md-none d-lg-block">
+                        <div class="card">
+                            <img src="images/GunsnRosesAppetiteforDestructionalbumcover.jpeg" alt="Appetite for Destruction">
+                            <div class="card-body">
+                                <h3 class="card-title">appetite for destruction</h3>
+                                <p class="card-text display-3">guns n roses</p>
+                                <div class="card-text">1987</div>
                             </div>
+                            <footer class="card-footer">
+                                <p class="card-text">$24.99</p>
+                                <button class="btn btn-danger cart-btn">add to cart</button>
+                            </footer>
                         </div>
                     </div>
                 </div>
@@ -117,112 +140,112 @@
                 <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
                     <div class="col">
                         <div class="card">
-                            <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid image card-img card-img-top" />
+                            <img src="images/1977.jpeg" alt="1977">
                             <div class="card-body">
-                                <h3 class="card-title">title</h3>
-                                <p class="card-text display-3">artist</p>
-                                <div class="card-text">year</div>
+                                <h3 class="card-title">1977</h3>
+                                <p class="card-text display-3">aC/dC</p>
+                                <div class="card-text">2022</div>
                             </div>
                             <footer class="card-footer">
-                                <p class="card-text">prices</p>
+                                <p class="card-text">$24.99</p>
                                 <button class="btn btn-danger cart-btn">add to cart</button>
                             </footer>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card">
-                            <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid image card-img card-img-top" />
+                            <img src="images/72_Seasons.jpeg" alt="72 Seasons">
                             <div class="card-body">
-                                <h3 class="card-title">title</h3>
-                                <p class="card-text display-3">artist</p>
-                                <div class="card-text">year</div>
+                                <h3 class="card-title">72 seasons</h3>
+                                <p class="card-text display-3">Metallica</p>
+                                <div class="card-text">2023</div>
                             </div>
                             <footer class="card-footer">
-                                <p class="card-text">prices</p>
+                                <p class="card-text">$24.99</p>
                                 <button class="btn btn-danger cart-btn">add to cart</button>
                             </footer>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card">
-                            <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid image card-img card-img-top" />
+                            <img src="images/ExileMainSt.jpeg" alt="Exile Main St">
                             <div class="card-body">
-                                <h3 class="card-title">title</h3>
-                                <p class="card-text display-3">artist</p>
-                                <div class="card-text">year</div>
+                                <h3 class="card-title">exile main st</h3>
+                                <p class="card-text display-3">the rolling stones</p>
+                                <div class="card-text">1972</div>
                             </div>
                             <footer class="card-footer">
-                                <p class="card-text">prices</p>
+                                <p class="card-text">$24.99</p>
                                 <button class="btn btn-danger cart-btn">add to cart</button>
                             </footer>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card">
-                            <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid image card-img card-img-top" />
+                            <img src="images/aceofspades.jpeg" alt="Ace of Spades">
                             <div class="card-body">
-                                <h3 class="card-title">title</h3>
-                                <p class="card-text display-3">artist</p>
-                                <div class="card-text">year</div>
+                                <h3 class="card-title">ace of spades</h3>
+                                <p class="card-text display-3">motörhead</p>
+                                <div class="card-text">1980</div>
                             </div>
                             <footer class="card-footer">
-                                <p class="card-text">prices</p>
+                                <p class="card-text">$24.99</p>
                                 <button class="btn btn-danger cart-btn">add to cart</button>
                             </footer>
                         </div>
                     </div>
                     <div class="col d-none d-md-block">
                         <div class="card">
-                            <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid image card-img card-img-top" />
+                            <img src="images/Hysteria.png" alt="Hysteria">
                             <div class="card-body">
-                                <h3 class="card-title">title</h3>
-                                <p class="card-text display-3">artist</p>
-                                <div class="card-text">year</div>
+                                <h3 class="card-title">hysteria</h3>
+                                <p class="card-text display-3">def leppard</p>
+                                <div class="card-text">1987</div>
                             </div>
                             <footer class="card-footer">
-                                <p class="card-text">prices</p>
+                                <p class="card-text">$24.99</p>
                                 <button class="btn btn-danger cart-btn">add to cart</button>
                             </footer>
                         </div>
                     </div>
                     <div class="col d-none d-md-block">
                         <div class="card">
-                            <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid image card-img card-img-top" />
+                            <img src="images/Hotelcalifornia.jpeg" alt="Hotel California">
                             <div class="card-body">
-                                <h3 class="card-title">title</h3>
-                                <p class="card-text display-3">artist</p>
-                                <div class="card-text">year</div>
+                                <h3 class="card-title">hotel california</h3>
+                                <p class="card-text display-3">the eagles</p>
+                                <div class="card-text">1976</div>
                             </div>
                             <footer class="card-footer">
-                                <p class="card-text">prices</p>
+                                <p class="card-text">$24.99</p>
                                 <button class="btn btn-danger cart-btn">add to cart</button>
                             </footer>
                         </div>
                     </div>
                     <div class="col d-none d-lg-block">
                         <div class="card">
-                            <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid image card-img card-img-top" />
+                            <img src="images/nevermind.jpeg" alt="Nevermind">
                             <div class="card-body">
-                                <h3 class="card-title">title</h3>
-                                <p class="card-text display-3">artist</p>
-                                <div class="card-text">year</div>
+                                <h3 class="card-title">nevermind</h3>
+                                <p class="card-text display-3">nirvana</p>
+                                <div class="card-text">1991</div>
                             </div>
                             <footer class="card-footer">
-                                <p class="card-text">prices</p>
+                                <p class="card-text">$24.99</p>
                                 <button class="btn btn-danger cart-btn">add to cart</button>
                             </footer>
                         </div>
                     </div>
                     <div class="col d-none d-lg-block">
                         <div class="card">
-                            <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid image card-img card-img-top" />
+                            <img src="images/Van_Halen_album.jpeg" alt="van halen">
                             <div class="card-body">
-                                <h3 class="card-title">title</h3>
-                                <p class="card-text display-3">artist</p>
-                                <div class="card-text">year</div>
+                                <h3 class="card-title">van halen</h3>
+                                <p class="card-text display-3">van halen</p>
+                                <div class="card-text">1978</div>
                             </div>
                             <footer class="card-footer">
-                                <p class="card-text">prices</p>
+                                <p class="card-text">$24.99</p>
                                 <button class="btn btn-danger cart-btn">add to cart</button>
                             </footer>
                         </div>
@@ -235,56 +258,56 @@
             <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
                 <div class="col">
                     <div class="card">
-                        <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid image card-img card-img-top" />
+                        <img src="images/Beggar_Banquet.jpeg" alt="Beggars Banquet">
                         <div class="card-body">
-                            <h3 class="card-title">title</h3>
-                            <p class="card-text display-3">artist</p>
-                            <div class="card-text">year</div>
+                            <h3 class="card-title">beggars banquet</h3>
+                            <p class="card-text display-3">the rolling stones</p>
+                            <div class="card-text">1968</div>
                         </div>
                         <footer class="card-footer">
-                            <p class="card-text">prices</p>
+                            <p class="card-text">$24.99</p>
                             <button class="btn btn-danger cart-btn">add to cart</button>
                         </footer>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid image card-img card-img-top" />
+                        <img src="images/Black_Sabbath_-_Paranoid.jpeg" alt="Paranoid">
                         <div class="card-body">
-                            <h3 class="card-title">title</h3>
-                            <p class="card-text display-3">artist</p>
-                            <div class="card-text">year</div>
+                            <h3 class="card-title">paranoid</h3>
+                            <p class="card-text display-3">black sabbath</p>
+                            <div class="card-text">1970</div>
                         </div>
                         <footer class="card-footer">
-                            <p class="card-text">prices</p>
+                            <p class="card-text">$24.99</p>
                             <button class="btn btn-danger cart-btn">add to cart</button>
                         </footer>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid image card-img card-img-top" />
+                        <img src="images/Motley_Crue_-_Dr_Feelgood-front.jpeg" alt="Dr. Feelgood">
                         <div class="card-body">
-                            <h3 class="card-title">title</h3>
-                            <p class="card-text display-3">artist</p>
-                            <div class="card-text">year</div>
+                            <h3 class="card-title">dr. feelgood</h3>
+                            <p class="card-text display-3">mötley crüe</p>
+                            <div class="card-text">1981</div>
                         </div>
                         <footer class="card-footer">
-                            <p class="card-text">prices</p>
+                            <p class="card-text">$24.99</p>
                             <button class="btn btn-danger cart-btn">add to cart</button>
                         </footer>
                     </div>
                 </div>
                 <div class="col d-md-none d-lg-block">
                     <div class="card">
-                        <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid image card-img card-img-top" />
+                        <img src="images/Jimi_Hendrix_-_Electric_Ladyland.jpeg" alt="Electric Ladyland">
                         <div class="card-body">
-                            <h3 class="card-title">title</h3>
-                            <p class="card-text display-3">artist</p>
-                            <div class="card-text">year</div>
+                            <h3 class="card-title">electric ladyland</h3>
+                            <p class="card-text display-3">jimi hendrix</p>
+                            <div class="card-text">1970</div>
                         </div>
                         <footer class="card-footer">
-                            <p class="card-text">prices</p>
+                            <p class="card-text">$24.99</p>
                             <button class="btn btn-danger cart-btn">add to cart</button>
                         </footer>
                     </div>
@@ -310,15 +333,9 @@
                             <button class="btn btn-danger" id="confirmBtn">submit</button>
                         </div>
                     </form>
-                    <div class="col-md-4 w-100">
-                        <ul class="address-list list-group">
-                            <li class="address-item list-item list-group-item">123 Plaeground Stret</li>
-                            <li class="address-item list-item list-group-item">Vitanova City</li>
-                            <li class="address-item list-item list-group-item">+675 (555)-115 1337</li>
-                            <li class="address-item list-item list-group-item">info@email.com</li>
-                        </ul>
+                    <!-- <div class="col-md-4 w-100"> -->
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 offset-md-4">
                         <nav class="nav bottom-nav justify-content-center justify-content-md-around" id="bottomNav">
                             <a href="#" class="nav-link social-link">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
@@ -329,8 +346,8 @@
                             <a href="#" class="nav-link social-link">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
                                     <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
-                                    </svg>
-                                    <span class="visually-hidden">instagram</span>
+                                </svg>
+                                <span class="visually-hidden">instagram</span>
                             </a>
                             <a href="#" class="nav-link social-link">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
@@ -338,7 +355,19 @@
                                 </svg>
                                 <span class="visually-hidden">facebook</span>
                             </a>
+                            <a href="#" class="nav-link social-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+                                    <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"/>
+                                </svg>
+                                <span class="visually-hidden">tiktok</span>
+                            </a>
                         </nav>
+                        <ul class="address-list list-group">
+                            <li class="address-item list-item list-group-item">121 Ashford Avenue</li>
+                            <li class="address-item list-item list-group-item">Vitanova City, Vitanova 55555</li>
+                            <li class="address-item list-item list-group-item">+675 (555)-115 1337</li>
+                            <li class="address-item list-item list-group-item">info@email.com</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="row">
